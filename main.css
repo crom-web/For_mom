@@ -1,0 +1,67 @@
+html{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: arial, 'helvetica neue', helvetica, sans-serif;
+    line-height: 27px;
+    color: #333333;
+    background:rgb(187, 187, 198);
+}
+
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header img{
+    display: block;
+    margin:  auto;
+}
+
+
+.text p{
+    width: 100%;
+    max-width: 270px;
+    text-align: left;
+    background: white;
+    margin-left:22.9rem;
+    padding: 0.5rem;
+    
+}
+
+.img img{
+    position: absolute;
+    width: 330px;
+    height: 235px;
+    margin-left: 37.9rem;
+    top:600px;
+    
+
+}
+
+.flowers{
+    display: flex;
+    justify-content: center;
+    background: #DFD3C3;
+    background-size: auto;
+    padding: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.social .link svg{
+    margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+.social .link svg:hover{
+    fill:rgb(192, 74, 74);
+    transform: scale(1.1);
+}
